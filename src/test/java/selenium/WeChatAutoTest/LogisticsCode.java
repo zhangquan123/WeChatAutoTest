@@ -1,4 +1,4 @@
-package selenium.WeChatAutoTest;
+package selenium.wechatautotest;
 
 import java.io.IOException;
 import org.testng.annotations.Test;

@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 16 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Workspaces\WeChatAutoTest\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>16 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 16 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.BroadbandProductList" hash-for-method="BPList">BPList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.LogisticsCode" hash-for-method="LogistiCode">LogistiCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.RennewalMaintenanceTime" hash-for-method="MaintenanceTime">MaintenanceTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.OffShelfProductList" hash-for-method="OSfProductList">OSfProductList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.OvertimeOrders" hash-for-method="OvertiOrders">OvertiOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.PersonalSettings" hash-for-method="PerSeting">PerSeting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.RenewalOrder" hash-for-method="ReneOrder">ReneOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.RenewalCommodities" hash-for-method="RenewalOfCommodities">RenewalOfCommodities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.InstallEquipmentBroadbandCode" hash-for-method="broadbandCode">broadbandCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.BroadbandNewClothesOrder" hash-for-method="broadbandOrder">broadbandOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.ComplaintManagement" hash-for-method="complaintMang">complaintMang</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.Login" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.Managers" hash-for-method="manager">manager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.RoleList" hash-for-method="rolelist">rolelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.FirstPage" hash-for-method="shouye">shouye</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="selenium.wechatautotest.ProvincesCityArea" hash-for-method="ss">ss</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.InstallEquipmentBroadbandCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="broadbandCode">
+                  </a> <!-- broadbandCode -->
+                  <span class="method-name">broadbandCode</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.InstallEquipmentBroadbandCode.broadbandCode(InstallEquipmentBroadbandCode.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.BroadbandProductList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BPList">
+                  </a> <!-- BPList -->
+                  <span class="method-name">BPList</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.BroadbandProductList.BPList(BroadbandProductList.java:14)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.OvertimeOrders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OvertiOrders">
+                  </a> <!-- OvertiOrders -->
+                  <span class="method-name">OvertiOrders</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.OvertimeOrders.OvertiOrders(OvertimeOrders.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.PersonalSettings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PerSeting">
+                  </a> <!-- PerSeting -->
+                  <span class="method-name">PerSeting</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.PersonalSettings.PerSeting(PersonalSettings.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.Managers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="manager">
+                  </a> <!-- manager -->
+                  <span class="method-name">manager</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.Managers.manager(Managers.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.BroadbandNewClothesOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="broadbandOrder">
+                  </a> <!-- broadbandOrder -->
+                  <span class="method-name">broadbandOrder</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.BroadbandNewClothesOrder.broadbandOrder(BroadbandNewClothesOrder.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.ComplaintManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="complaintMang">
+                  </a> <!-- complaintMang -->
+                  <span class="method-name">complaintMang</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.ComplaintManagement.complaintMang(ComplaintManagement.java:11)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.RoleList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rolelist">
+                  </a> <!-- rolelist -->
+                  <span class="method-name">rolelist</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.RoleList.rolelist(RoleList.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.ExceptionInInitializerError
+	at selenium.wechatautotest.Login.login(Login.java:22)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.53 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;NBL95VX4HAZOVHR&apos;, ip: &apos;192.168.1.122&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at selenium.wechatautotest.Share.&lt;init&gt;(Share.java:27)
+	at selenium.wechatautotest.Share.&lt;clinit&gt;(Share.java:30)
+	... 52 more
+... Removed 54 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.LogisticsCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogistiCode">
+                  </a> <!-- LogistiCode -->
+                  <span class="method-name">LogistiCode</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.LogisticsCode.LogistiCode(LogisticsCode.java:10)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.RenewalCommodities</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RenewalOfCommodities">
+                  </a> <!-- RenewalOfCommodities -->
+                  <span class="method-name">RenewalOfCommodities</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.RenewalCommodities.RenewalOfCommodities(RenewalCommodities.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.RennewalMaintenanceTime</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MaintenanceTime">
+                  </a> <!-- MaintenanceTime -->
+                  <span class="method-name">MaintenanceTime</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.RennewalMaintenanceTime.MaintenanceTime(RennewalMaintenanceTime.java:11)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.FirstPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouye">
+                  </a> <!-- shouye -->
+                  <span class="method-name">shouye</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.FirstPage.shouye(FirstPage.java:13)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.OffShelfProductList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OSfProductList">
+                  </a> <!-- OSfProductList -->
+                  <span class="method-name">OSfProductList</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.OffShelfProductList.OSfProductList(OffShelfProductList.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.RenewalOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReneOrder">
+                  </a> <!-- ReneOrder -->
+                  <span class="method-name">ReneOrder</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.RenewalOrder.ReneOrder(RenewalOrder.java:12)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.wechatautotest.ProvincesCityArea</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ss">
+                  </a> <!-- ss -->
+                  <span class="method-name">ss</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class selenium.wechatautotest.Share
+	at selenium.wechatautotest.ProvincesCityArea.ss(ProvincesCityArea.java:11)
+	at selenium.wechatautotest.AppTest.aa(AppTest.java:27)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Workspaces\WeChatAutoTest\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Login&quot;/&gt;
+        &lt;include name=&quot;FirstPage&quot;/&gt;
+        &lt;include name=&quot;ProvincesCityArea&quot;/&gt;
+        &lt;include name=&quot;RenewalCommodities&quot;/&gt;
+        &lt;include name=&quot;LogisticsCode&quot;/&gt;
+        &lt;include name=&quot;InstallEquipmentBroadbandCode&quot;/&gt;
+        &lt;include name=&quot;RennewalMaintenanceTime&quot;/&gt;
+        &lt;include name=&quot;ComplaintManagement&quot;/&gt;
+        &lt;include name=&quot;BroadbandNewClothesOrder&quot;/&gt;
+        &lt;include name=&quot;RenewalOrder&quot;/&gt;
+        &lt;include name=&quot;OvertimeOrders&quot;/&gt;
+        &lt;include name=&quot;BroadbandProductList&quot;/&gt;
+        &lt;include name=&quot;OffShelfProductList&quot;/&gt;
+        &lt;include name=&quot;Managers&quot;/&gt;
+        &lt;include name=&quot;RoleList&quot;/&gt;
+        &lt;include name=&quot;PersonalSettings&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium.wechatautotest.Login&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.FirstPage&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.ProvincesCityArea&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.RenewalCommodities&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.LogisticsCode&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.InstallEquipmentBroadbandCode&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.RennewalMaintenanceTime&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.ComplaintManagement&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.BroadbandNewClothesOrder&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.RenewalOrder&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.OvertimeOrders&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.BroadbandProductList&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.OffShelfProductList&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.Managers&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.RoleList&quot;/&gt;
+      &lt;class name=&quot;selenium.wechatautotest.PersonalSettings&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">BroadbandNewClothesOrder</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">broadbandOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">BroadbandProductList</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BPList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ComplaintManagement</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">complaintMang</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FirstPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">shouye</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">InstallEquipmentBroadbandCode</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">broadbandCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LogisticsCode</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LogistiCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Managers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">manager</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">OffShelfProductList</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">OSfProductList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">OvertimeOrders</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">OvertiOrders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PersonalSettings</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">PerSeting</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ProvincesCityArea</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ss</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RenewalCommodities</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RenewalOfCommodities</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RenewalOrder</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ReneOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RennewalMaintenanceTime</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">MaintenanceTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RoleList</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">rolelist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'selenium.wechatautotest.Login')
+data.setCell(0, 3, 16494);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'broadbandCode')
+data.setCell(1, 2, 'selenium.wechatautotest.InstallEquipmentBroadbandCode')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'broadbandOrder')
+data.setCell(2, 2, 'selenium.wechatautotest.BroadbandNewClothesOrder')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PerSeting')
+data.setCell(3, 2, 'selenium.wechatautotest.PersonalSettings')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'complaintMang')
+data.setCell(4, 2, 'selenium.wechatautotest.ComplaintManagement')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shouye')
+data.setCell(5, 2, 'selenium.wechatautotest.FirstPage')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'rolelist')
+data.setCell(6, 2, 'selenium.wechatautotest.RoleList')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ss')
+data.setCell(7, 2, 'selenium.wechatautotest.ProvincesCityArea')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'manager')
+data.setCell(8, 2, 'selenium.wechatautotest.Managers')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RenewalOfCommodities')
+data.setCell(9, 2, 'selenium.wechatautotest.RenewalCommodities')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'MaintenanceTime')
+data.setCell(10, 2, 'selenium.wechatautotest.RennewalMaintenanceTime')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LogistiCode')
+data.setCell(11, 2, 'selenium.wechatautotest.LogisticsCode')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'BPList')
+data.setCell(12, 2, 'selenium.wechatautotest.BroadbandProductList')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'OvertiOrders')
+data.setCell(13, 2, 'selenium.wechatautotest.OvertimeOrders')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ReneOrder')
+data.setCell(14, 2, 'selenium.wechatautotest.RenewalOrder')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'OSfProductList')
+data.setCell(15, 2, 'selenium.wechatautotest.OffShelfProductList')
+data.setCell(15, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.FirstPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shouye</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.ProvincesCityArea</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ss</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.RenewalCommodities</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RenewalOfCommodities</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.LogisticsCode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LogistiCode</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.InstallEquipmentBroadbandCode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">broadbandCode</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.RennewalMaintenanceTime</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MaintenanceTime</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.ComplaintManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">complaintMang</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.BroadbandNewClothesOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">broadbandOrder</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.RenewalOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ReneOrder</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.OvertimeOrders</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OvertiOrders</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.BroadbandProductList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BPList</span>
+                <span class="method-start">16497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.OffShelfProductList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OSfProductList</span>
+                <span class="method-start">16497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.Managers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">manager</span>
+                <span class="method-start">16497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.RoleList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">rolelist</span>
+                <span class="method-start">16497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.wechatautotest.PersonalSettings</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PerSeting</span>
+                <span class="method-start">16497 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

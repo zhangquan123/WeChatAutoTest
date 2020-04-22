@@ -1,4 +1,4 @@
-package selenium.WeChatAutoTest;
+package selenium.wechatautotest;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class Share {
 		}				
 		//xpath定位
 		public  void xpath(String xpath){
-			Driver.findElement(By.xpath(xpath));
+			Driver.findElement(By.xpath(xpath));			
 		}
 		//id定位并输入
 		public void idSendkey(String id,String text){
@@ -155,8 +155,7 @@ public class Share {
 		//发生异常时自动截图保存
 		public void ScreenShot() throws IOException{
 			//图片名称加时间戳
-	 		String dateString = getDateFormat();
-	 		
+	 		String dateString = getDateFormat();	 		
 	 		// getScreenshotAs()对当前窗口进行截图
 	 		File srcFile = ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
 	 		// 需要指定图片的保存路径及文件名
@@ -165,7 +164,7 @@ public class Share {
 		private String getDateFormat() {
 			// TODO Auto-generated method stub
 			Date date = new Date();
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-hh-mm-ss");
 			String dateString = sdf.format(date);
 			return dateString;		
 		}

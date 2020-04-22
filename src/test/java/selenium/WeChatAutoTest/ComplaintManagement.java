@@ -1,4 +1,4 @@
-package selenium.WeChatAutoTest;
+package selenium.wechatautotest;
 
 import java.io.IOException;
 import org.testng.Assert;
@@ -56,7 +56,7 @@ public class ComplaintManagement {
 			sha.thread(1200);
 			sha.xpathClick("/html/body/section/section[1]/section[4]/button[1]");
 			sha.thread(1200);
-			sha.xpathClick("/html/body/section/section[1]/section[4]/button[3]");
+			sha.xpathClick("/html/body/section/section[1]/section[4]/button[3]");							
 			sha.thread(1500);
 			//编辑、取消
 			sha.xpathClick("/html/body/section/section[2]/table/tbody/tr[1]/td[9]/button");

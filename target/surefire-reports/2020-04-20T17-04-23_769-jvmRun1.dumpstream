@@ -1,0 +1,478 @@
+# Created at 2020-04-20T17:04:36.949
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-04-20T17:04:42.599
+Unexpected IOException with stream: [
+
+# Created at 2020-04-20T17:04:42.600
+Unexpected IOException with stream: 1
+
+# Created at 2020-04-20T17:04:42.600
+Unexpected IOException with stream: 5
+
+# Created at 2020-04-20T17:04:42.601
+Unexpected IOException with stream: 8
+
+# Created at 2020-04-20T17:04:42.601
+Unexpected IOException with stream: 7
+
+# Created at 2020-04-20T17:04:42.601
+Unexpected IOException with stream: 3
+
+# Created at 2020-04-20T17:04:42.602
+Unexpected IOException with stream: 7
+
+# Created at 2020-04-20T17:04:42.602
+Unexpected IOException with stream: 3
+
+# Created at 2020-04-20T17:04:42.602
+Unexpected IOException with stream: 4
+
+# Created at 2020-04-20T17:04:42.602
+Unexpected IOException with stream: 8
+
+# Created at 2020-04-20T17:04:42.603
+Unexpected IOException with stream: 2
+
+# Created at 2020-04-20T17:04:42.603
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:42.603
+Unexpected IOException with stream: 5
+
+# Created at 2020-04-20T17:04:42.603
+Unexpected IOException with stream: 9
+
+# Created at 2020-04-20T17:04:42.604
+Unexpected IOException with stream: 9
+
+# Created at 2020-04-20T17:04:42.604
+Unexpected IOException with stream: ]
+
+# Created at 2020-04-20T17:04:42.604
+Unexpected IOException with stream: [
+
+# Created at 2020-04-20T17:04:42.604
+Unexpected IOException with stream: W
+
+# Created at 2020-04-20T17:04:42.605
+Unexpected IOException with stream: A
+
+# Created at 2020-04-20T17:04:42.605
+Unexpected IOException with stream: R
+
+# Created at 2020-04-20T17:04:42.605
+Unexpected IOException with stream: N
+
+# Created at 2020-04-20T17:04:42.605
+Unexpected IOException with stream: I
+
+# Created at 2020-04-20T17:04:42.606
+Unexpected IOException with stream: N
+
+# Created at 2020-04-20T17:04:42.606
+Unexpected IOException with stream: G
+
+# Created at 2020-04-20T17:04:42.606
+Unexpected IOException with stream: ]
+
+# Created at 2020-04-20T17:04:42.607
+Unexpected IOException with stream: :
+
+# Created at 2020-04-20T17:04:42.607
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.607
+Unexpected IOException with stream: T
+
+# Created at 2020-04-20T17:04:42.607
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:42.608
+Unexpected IOException with stream: m
+
+# Created at 2020-04-20T17:04:42.608
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:42.608
+Unexpected IOException with stream: d
+
+# Created at 2020-04-20T17:04:42.608
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.609
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:42.609
+Unexpected IOException with stream: u
+
+# Created at 2020-04-20T17:04:42.609
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:42.609
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.610
+Unexpected IOException with stream: c
+
+# Created at 2020-04-20T17:04:42.610
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:42.610
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:42.611
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:42.611
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:42.611
+Unexpected IOException with stream: c
+
+# Created at 2020-04-20T17:04:42.611
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:42.612
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:42.612
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:42.612
+Unexpected IOException with stream: g
+
+# Created at 2020-04-20T17:04:42.612
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.613
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:42.613
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:42.614
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.614
+Unexpected IOException with stream: C
+
+# Created at 2020-04-20T17:04:42.614
+Unexpected IOException with stream: h
+
+# Created at 2020-04-20T17:04:42.614
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:42.615
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:42.615
+Unexpected IOException with stream: m
+
+# Created at 2020-04-20T17:04:42.615
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:42.615
+Unexpected IOException with stream: ,
+
+# Created at 2020-04-20T17:04:42.616
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:42.616
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:42.616
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:42.616
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:42.617
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:42.618
+Unexpected IOException with stream: y
+
+# Created at 2020-04-20T17:04:42.618
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:42.618
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:42.618
+Unexpected IOException with stream: g
+
+# Created at 2020-04-20T17:04:42.619
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:42.619
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:42.619
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:42.619
+Unexpected IOException with stream: 
+
+# Created at 2020-04-20T17:04:42.620
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-20T17:04:46.600
+Unexpected IOException with stream: [
+
+# Created at 2020-04-20T17:04:46.600
+Unexpected IOException with stream: 1
+
+# Created at 2020-04-20T17:04:46.601
+Unexpected IOException with stream: 5
+
+# Created at 2020-04-20T17:04:46.601
+Unexpected IOException with stream: 8
+
+# Created at 2020-04-20T17:04:46.601
+Unexpected IOException with stream: 7
+
+# Created at 2020-04-20T17:04:46.601
+Unexpected IOException with stream: 3
+
+# Created at 2020-04-20T17:04:46.602
+Unexpected IOException with stream: 7
+
+# Created at 2020-04-20T17:04:46.602
+Unexpected IOException with stream: 3
+
+# Created at 2020-04-20T17:04:46.602
+Unexpected IOException with stream: 4
+
+# Created at 2020-04-20T17:04:46.602
+Unexpected IOException with stream: 8
+
+# Created at 2020-04-20T17:04:46.603
+Unexpected IOException with stream: 6
+
+# Created at 2020-04-20T17:04:46.603
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:46.603
+Unexpected IOException with stream: 6
+
+# Created at 2020-04-20T17:04:46.603
+Unexpected IOException with stream: 0
+
+# Created at 2020-04-20T17:04:46.604
+Unexpected IOException with stream: 0
+
+# Created at 2020-04-20T17:04:46.604
+Unexpected IOException with stream: ]
+
+# Created at 2020-04-20T17:04:46.604
+Unexpected IOException with stream: [
+
+# Created at 2020-04-20T17:04:46.604
+Unexpected IOException with stream: W
+
+# Created at 2020-04-20T17:04:46.604
+Unexpected IOException with stream: A
+
+# Created at 2020-04-20T17:04:46.605
+Unexpected IOException with stream: R
+
+# Created at 2020-04-20T17:04:46.605
+Unexpected IOException with stream: N
+
+# Created at 2020-04-20T17:04:46.605
+Unexpected IOException with stream: I
+
+# Created at 2020-04-20T17:04:46.605
+Unexpected IOException with stream: N
+
+# Created at 2020-04-20T17:04:46.605
+Unexpected IOException with stream: G
+
+# Created at 2020-04-20T17:04:46.606
+Unexpected IOException with stream: ]
+
+# Created at 2020-04-20T17:04:46.606
+Unexpected IOException with stream: :
+
+# Created at 2020-04-20T17:04:46.606
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.606
+Unexpected IOException with stream: T
+
+# Created at 2020-04-20T17:04:46.607
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:46.607
+Unexpected IOException with stream: m
+
+# Created at 2020-04-20T17:04:46.607
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:46.607
+Unexpected IOException with stream: d
+
+# Created at 2020-04-20T17:04:46.607
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.608
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:46.608
+Unexpected IOException with stream: u
+
+# Created at 2020-04-20T17:04:46.608
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:46.608
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.608
+Unexpected IOException with stream: c
+
+# Created at 2020-04-20T17:04:46.609
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:46.609
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:46.609
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:46.609
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:46.609
+Unexpected IOException with stream: c
+
+# Created at 2020-04-20T17:04:46.610
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:46.610
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:46.610
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:46.610
+Unexpected IOException with stream: g
+
+# Created at 2020-04-20T17:04:46.610
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.611
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:46.611
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:46.611
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.611
+Unexpected IOException with stream: C
+
+# Created at 2020-04-20T17:04:46.612
+Unexpected IOException with stream: h
+
+# Created at 2020-04-20T17:04:46.612
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:46.612
+Unexpected IOException with stream: o
+
+# Created at 2020-04-20T17:04:46.612
+Unexpected IOException with stream: m
+
+# Created at 2020-04-20T17:04:46.613
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:46.613
+Unexpected IOException with stream: ,
+
+# Created at 2020-04-20T17:04:46.613
+Unexpected IOException with stream:  
+
+# Created at 2020-04-20T17:04:46.613
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:46.613
+Unexpected IOException with stream: e
+
+# Created at 2020-04-20T17:04:46.614
+Unexpected IOException with stream: t
+
+# Created at 2020-04-20T17:04:46.614
+Unexpected IOException with stream: r
+
+# Created at 2020-04-20T17:04:46.614
+Unexpected IOException with stream: y
+
+# Created at 2020-04-20T17:04:46.614
+Unexpected IOException with stream: i
+
+# Created at 2020-04-20T17:04:46.614
+Unexpected IOException with stream: n
+
+# Created at 2020-04-20T17:04:46.615
+Unexpected IOException with stream: g
+
+# Created at 2020-04-20T17:04:46.615
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:46.615
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:46.615
+Unexpected IOException with stream: .
+
+# Created at 2020-04-20T17:04:46.615
+Unexpected IOException with stream: 
+
+# Created at 2020-04-20T17:04:46.616
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-20T17:04:49.943
+Unexpected IOException with stream: ======exception reason=======org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBL95VX4HAZOVHR', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+
+
+# Created at 2020-04-20T17:04:58.003
+Unexpected IOException with stream: ======exception reason=======org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8518 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBL95VX4HAZOVHR', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+
+
+# Created at 2020-04-20T17:05:06.062
+Unexpected IOException with stream: ======exception reason=======org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8518 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBL95VX4HAZOVHR', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+
+
+# Created at 2020-04-20T17:05:14.118
+Unexpected IOException with stream: ======exception reason=======org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8518 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBL95VX4HAZOVHR', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+
+
+# Created at 2020-04-20T17:05:22.180
+Unexpected IOException with stream: ======exception reason=======org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8518 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBL95VX4HAZOVHR', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+
+

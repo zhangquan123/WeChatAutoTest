@@ -1,4 +1,4 @@
-package selenium.WeChatAutoTest;
+package selenium.wechatautotest;
 
 
 import java.io.IOException;
@@ -24,11 +24,12 @@ public class Login {
 			
 			sha.inputUrl("http://elifepay-web-dashboard-1256068900.cos.ap-chengdu.myqcloud.com/login.html");			
 			sha.maxSize();
-			sha.xpathSendKeys("/html/body/section/section[1]/section/section/section/section[1]/input", "18520042490");
+			sha.xpathSendKeys("/html/body/section/section[1]/section/section/section/section[1]/input", "18520042490");	
+								
 			sha.thread(800);
-			sha.xpathSendKeys("/html/body/section/section[1]/section/section/section/section[2]/input", "Zq940826");
+			sha.xpathSendKeys("/html/body/section/section[1]/section/section/section/section[2]/input", "Zq940826");								
 			sha.thread(800);
-			sha.selectorClick("body > section > section.login-bg.full-width.no-min.full-height > section > section > section > section.login-content-line-pd.pd-t10 > button");
+			sha.selectorClick("body > section > section.login-bg.full-width.no-min.full-height > section > section > section > section.login-content-line-pd.pd-t10 > button");			
 			sha.implicitlyWait(10);	
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

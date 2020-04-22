@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="FirstPage"/>
+        <include name="ProvincesCityArea"/>
+        <include name="RenewalCommodities"/>
+        <include name="LogisticsCode"/>
+        <include name="InstallEquipmentBroadbandCode"/>
+        <include name="RennewalMaintenanceTime"/>
+        <include name="ComplaintManagement"/>
+        <include name="BroadbandNewClothesOrder"/>
+        <include name="RenewalOrder"/>
+        <include name="OvertimeOrders"/>
+        <include name="BroadbandProductList"/>
+        <include name="OffShelfProductList"/>
+        <include name="Managers"/>
+        <include name="RoleList"/>
+        <include name="PersonalSettings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.wechatautotest.Login"/>
+      <class name="selenium.wechatautotest.FirstPage"/>
+      <class name="selenium.wechatautotest.ProvincesCityArea"/>
+      <class name="selenium.wechatautotest.RenewalCommodities"/>
+      <class name="selenium.wechatautotest.LogisticsCode"/>
+      <class name="selenium.wechatautotest.InstallEquipmentBroadbandCode"/>
+      <class name="selenium.wechatautotest.RennewalMaintenanceTime"/>
+      <class name="selenium.wechatautotest.ComplaintManagement"/>
+      <class name="selenium.wechatautotest.BroadbandNewClothesOrder"/>
+      <class name="selenium.wechatautotest.RenewalOrder"/>
+      <class name="selenium.wechatautotest.OvertimeOrders"/>
+      <class name="selenium.wechatautotest.BroadbandProductList"/>
+      <class name="selenium.wechatautotest.OffShelfProductList"/>
+      <class name="selenium.wechatautotest.Managers"/>
+      <class name="selenium.wechatautotest.RoleList"/>
+      <class name="selenium.wechatautotest.PersonalSettings"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="FirstPage"/>
+        <include name="ProvincesCityArea"/>
+        <include name="RenewalCommodities"/>
+        <include name="LogisticsCode"/>
+        <include name="InstallEquipmentBroadbandCode"/>
+        <include name="RennewalMaintenanceTime"/>
+        <include name="ComplaintManagement"/>
+        <include name="BroadbandNewClothesOrder"/>
+        <include name="RenewalOrder"/>
+        <include name="OvertimeOrders"/>
+        <include name="BroadbandProductList"/>
+        <include name="OffShelfProductList"/>
+        <include name="Managers"/>
+        <include name="RoleList"/>
+        <include name="PersonalSettings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.wechatautotest.InstallEquipmentBroadbandCode">
+        <methods>
+          <include name="broadbandCode"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.InstallEquipmentBroadbandCode -->
+      <class name="selenium.wechatautotest.BroadbandProductList">
+        <methods>
+          <include name="BPList"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.BroadbandProductList -->
+      <class name="selenium.wechatautotest.OvertimeOrders">
+        <methods>
+          <include name="OvertiOrders"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.OvertimeOrders -->
+      <class name="selenium.wechatautotest.Managers">
+        <methods>
+          <include name="manager"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.Managers -->
+      <class name="selenium.wechatautotest.PersonalSettings">
+        <methods>
+          <include name="PerSeting"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.PersonalSettings -->
+      <class name="selenium.wechatautotest.BroadbandNewClothesOrder">
+        <methods>
+          <include name="broadbandOrder"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.BroadbandNewClothesOrder -->
+      <class name="selenium.wechatautotest.ComplaintManagement">
+        <methods>
+          <include name="complaintMang"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.ComplaintManagement -->
+      <class name="selenium.wechatautotest.RoleList">
+        <methods>
+          <include name="rolelist"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RoleList -->
+      <class name="selenium.wechatautotest.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.Login -->
+      <class name="selenium.wechatautotest.LogisticsCode">
+        <methods>
+          <include name="LogistiCode"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.LogisticsCode -->
+      <class name="selenium.wechatautotest.RenewalCommodities">
+        <methods>
+          <include name="RenewalOfCommodities"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RenewalCommodities -->
+      <class name="selenium.wechatautotest.RennewalMaintenanceTime">
+        <methods>
+          <include name="MaintenanceTime"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RennewalMaintenanceTime -->
+      <class name="selenium.wechatautotest.FirstPage">
+        <methods>
+          <include name="shouye"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.FirstPage -->
+      <class name="selenium.wechatautotest.OffShelfProductList">
+        <methods>
+          <include name="OSfProductList"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.OffShelfProductList -->
+      <class name="selenium.wechatautotest.RenewalOrder">
+        <methods>
+          <include name="ReneOrder"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RenewalOrder -->
+      <class name="selenium.wechatautotest.ProvincesCityArea">
+        <methods>
+          <include name="ss"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.ProvincesCityArea -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

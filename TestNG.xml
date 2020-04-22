@@ -23,22 +23,22 @@
      </groups>    
    
 	<classes>      
-	  <class name="selenium.WeChatAutoTest.Login"></class>
-	  <class name="selenium.WeChatAutoTest.FirstPage"></class> 
-	  <class name="selenium.WeChatAutoTest.ProvincesCityArea"></class> 
-	  <class name="selenium.WeChatAutoTest.RenewalCommodities"></class>
-	  <class name="selenium.WeChatAutoTest.LogisticsCode"></class>
-	  <class name="selenium.WeChatAutoTest.InstallEquipmentBroadbandCode"></class>
-	  <class name="selenium.WeChatAutoTest.RennewalMaintenanceTime"></class>
-	  <class name="selenium.WeChatAutoTest.ComplaintManagement"></class>
-	  <class name="selenium.WeChatAutoTest.BroadbandNewClothesOrder"></class> 
-	  <class name="selenium.WeChatAutoTest.RenewalOrder"></class> 
-	  <class name="selenium.WeChatAutoTest.OvertimeOrders"></class>
-	  <class name="selenium.WeChatAutoTest.BroadbandProductList"></class>
-	  <class name="selenium.WeChatAutoTest.OffShelfProductList"></class> 
-	  <class name="selenium.WeChatAutoTest.Managers"></class>
-	  <class name="selenium.WeChatAutoTest.RoleList"></class>
-	  <class name="selenium.WeChatAutoTest.PersonalSettings"/>
+	  <class name="selenium.wechatautotest.Login"></class>
+	  <class name="selenium.wechatautotest.FirstPage"></class> 
+	  <class name="selenium.wechatautotest.ProvincesCityArea"></class> 
+	  <class name="selenium.wechatautotest.RenewalCommodities"></class>
+	  <class name="selenium.wechatautotest.LogisticsCode"></class>
+	  <class name="selenium.wechatautotest.InstallEquipmentBroadbandCode"></class>
+	  <class name="selenium.wechatautotest.RennewalMaintenanceTime"></class>
+	  <class name="selenium.wechatautotest.ComplaintManagement"></class>
+	  <class name="selenium.wechatautotest.BroadbandNewClothesOrder"></class> 
+	  <class name="selenium.wechatautotest.RenewalOrder"></class> 
+	  <class name="selenium.wechatautotest.OvertimeOrders"></class>
+	  <class name="selenium.wechatautotest.BroadbandProductList"></class>
+	  <class name="selenium.wechatautotest.OffShelfProductList"></class> 
+	  <class name="selenium.wechatautotest.Managers"></class>
+	  <class name="selenium.wechatautotest.RoleList"></class>
+	  <class name="selenium.wechatautotest.PersonalSettings"/>
 	</classes>    
 	
   </test> <!-- Test -->

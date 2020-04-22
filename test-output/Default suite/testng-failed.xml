@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="selenium.wechatautotest.OvertimeOrders">
+        <methods>
+          <include name="OvertiOrders"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.OvertimeOrders -->
+      <class name="selenium.wechatautotest.FirstPage">
+        <methods>
+          <include name="shouye"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.FirstPage -->
+      <class name="selenium.wechatautotest.OffShelfProductList">
+        <methods>
+          <include name="OSfProductList"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.OffShelfProductList -->
+      <class name="selenium.wechatautotest.RenewalCommodities">
+        <methods>
+          <include name="RenewalOfCommodities"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RenewalCommodities -->
+      <class name="selenium.wechatautotest.ProvincesCityArea">
+        <methods>
+          <include name="ss"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.ProvincesCityArea -->
+      <class name="selenium.wechatautotest.Share">
+        <methods>
+          <include name="closeBroswer"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.Share -->
+      <class name="selenium.wechatautotest.RenewalOrder">
+        <methods>
+          <include name="ReneOrder"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RenewalOrder -->
+      <class name="selenium.wechatautotest.PersonalSettings">
+        <methods>
+          <include name="PerSeting"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.PersonalSettings -->
+      <class name="selenium.wechatautotest.RoleList">
+        <methods>
+          <include name="rolelist"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.RoleList -->
+      <class name="selenium.wechatautotest.BroadbandProductList">
+        <methods>
+          <include name="BPList"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.BroadbandProductList -->
+      <class name="selenium.wechatautotest.InstallEquipmentBroadbandCode">
+        <methods>
+          <include name="broadbandCode"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.InstallEquipmentBroadbandCode -->
+      <class name="selenium.wechatautotest.LogisticsCode">
+        <methods>
+          <include name="LogistiCode"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.LogisticsCode -->
+      <class name="selenium.wechatautotest.ComplaintManagement">
+        <methods>
+          <include name="complaintMang"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.ComplaintManagement -->
+      <class name="selenium.wechatautotest.Login">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- selenium.wechatautotest.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

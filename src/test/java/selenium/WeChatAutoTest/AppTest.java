@@ -1,8 +1,13 @@
-package selenium.WeChatAutoTest;
+package selenium.wechatautotest;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.TestNG;
+
+import org.testng.annotations.Test;
+
 
 /**
  * Unit test for simple App.
@@ -12,21 +17,21 @@ public class AppTest
     /**
      * jenkins启动TestNG.xml
      */
-
-	public static void main(String[] args) throws InterruptedException {
+	 @Test
+	 public void aa(){		
+		 System.out.println("111111111111111111111111111111111111111111111111111111111111");
 		TestNG testNG = new TestNG();
         List<String> suites = new ArrayList<String>();      
-        suites.add("C:\\Users\\Administrator\\Desktop\\WeChatBroadband\\src\\test\\java\\TestNG.xml");
+        suites.add("D:\\Workspaces\\WeChatAutoTest\\TestNG.xml");   //执行的路径
         //suites.add(".\\test-output\\testng-failed.xml");
         testNG.setTestSuites(suites);
         testNG.run();
-
-        /*// 等待执行结束，然后去执行失败用例
-        TestNG testNG1 = new TestNG();
-        List<String> suites1 = new ArrayList<String>();
-        Thread.sleep(5000);
-        suites1.add(".\\test-output\\testng-failed.xml");
-        testNG1.setTestSuites(suites1);
-        testNG1.run();*/
-	}
+        
+        
+        assertTrue( true );
+        
+     	
+     } 
+	 
+	
 }
